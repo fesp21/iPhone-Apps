@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2C4E871619CDA03E007E31BB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4E871519CDA03E007E31BB /* AppDelegate.swift */; };
+		2C4E871819CDA03E007E31BB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4E871719CDA03E007E31BB /* ViewController.swift */; };
+		2C4E871B19CDA03E007E31BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C4E871919CDA03E007E31BB /* Main.storyboard */; };
+		2C4E871D19CDA03E007E31BB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C4E871C19CDA03E007E31BB /* Images.xcassets */; };
+		2C4E872019CDA03E007E31BB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C4E871E19CDA03E007E31BB /* LaunchScreen.xib */; };
+		2C4E872C19CDA03E007E31BB /* Brian_AdventTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4E872B19CDA03E007E31BB /* Brian_AdventTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2C4E872619CDA03E007E31BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2C4E870819CDA03E007E31BB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2C4E870F19CDA03E007E31BB;
+			remoteInfo = "Brian Advent";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2C4E871019CDA03E007E31BB /* Brian Advent.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Brian Advent.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C4E871419CDA03E007E31BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C4E871519CDA03E007E31BB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2C4E871719CDA03E007E31BB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2C4E871A19CDA03E007E31BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2C4E871C19CDA03E007E31BB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2C4E871F19CDA03E007E31BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		2C4E872519CDA03E007E31BB /* Brian AdventTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Brian AdventTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C4E872A19CDA03E007E31BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C4E872B19CDA03E007E31BB /* Brian_AdventTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Brian_AdventTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2C4E870D19CDA03E007E31BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C4E872219CDA03E007E31BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2C4E870719CDA03E007E31BB = {
+			isa = PBXGroup;
+			children = (
+				2C4E871219CDA03E007E31BB /* Brian Advent */,
+				2C4E872819CDA03E007E31BB /* Brian AdventTests */,
+				2C4E871119CDA03E007E31BB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2C4E871119CDA03E007E31BB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2C4E871019CDA03E007E31BB /* Brian Advent.app */,
+				2C4E872519CDA03E007E31BB /* Brian AdventTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2C4E871219CDA03E007E31BB /* Brian Advent */ = {
+			isa = PBXGroup;
+			children = (
+				2C4E871519CDA03E007E31BB /* AppDelegate.swift */,
+				2C4E871719CDA03E007E31BB /* ViewController.swift */,
+				2C4E871919CDA03E007E31BB /* Main.storyboard */,
+				2C4E871C19CDA03E007E31BB /* Images.xcassets */,
+				2C4E871E19CDA03E007E31BB /* LaunchScreen.xib */,
+				2C4E871319CDA03E007E31BB /* Supporting Files */,
+			);
+			path = "Brian Advent";
+			sourceTree = "<group>";
+		};
+		2C4E871319CDA03E007E31BB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2C4E871419CDA03E007E31BB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2C4E872819CDA03E007E31BB /* Brian AdventTests */ = {
+			isa = PBXGroup;
+			children = (
+				2C4E872B19CDA03E007E31BB /* Brian_AdventTests.swift */,
+				2C4E872919CDA03E007E31BB /* Supporting Files */,
+			);
+			path = "Brian AdventTests";
+			sourceTree = "<group>";
+		};
+		2C4E872919CDA03E007E31BB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2C4E872A19CDA03E007E31BB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2C4E870F19CDA03E007E31BB /* Brian Advent */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C4E872F19CDA03E007E31BB /* Build configuration list for PBXNativeTarget "Brian Advent" */;
+			buildPhases = (
+				2C4E870C19CDA03E007E31BB /* Sources */,
+				2C4E870D19CDA03E007E31BB /* Frameworks */,
+				2C4E870E19CDA03E007E31BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Brian Advent";
+			productName = "Brian Advent";
+			productReference = 2C4E871019CDA03E007E31BB /* Brian Advent.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2C4E872419CDA03E007E31BB /* Brian AdventTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C4E873219CDA03E007E31BB /* Build configuration list for PBXNativeTarget "Brian AdventTests" */;
+			buildPhases = (
+				2C4E872119CDA03E007E31BB /* Sources */,
+				2C4E872219CDA03E007E31BB /* Frameworks */,
+				2C4E872319CDA03E007E31BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2C4E872719CDA03E007E31BB /* PBXTargetDependency */,
+			);
+			name = "Brian AdventTests";
+			productName = "Brian AdventTests";
+			productReference = 2C4E872519CDA03E007E31BB /* Brian AdventTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2C4E870819CDA03E007E31BB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "it'sDivine.Inc";
+				TargetAttributes = {
+					2C4E870F19CDA03E007E31BB = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					2C4E872419CDA03E007E31BB = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = 2C4E870F19CDA03E007E31BB;
+					};
+				};
+			};
+			buildConfigurationList = 2C4E870B19CDA03E007E31BB /* Build configuration list for PBXProject "Brian Advent" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2C4E870719CDA03E007E31BB;
+			productRefGroup = 2C4E871119CDA03E007E31BB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2C4E870F19CDA03E007E31BB /* Brian Advent */,
+				2C4E872419CDA03E007E31BB /* Brian AdventTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2C4E870E19CDA03E007E31BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C4E871B19CDA03E007E31BB /* Main.storyboard in Resources */,
+				2C4E872019CDA03E007E31BB /* LaunchScreen.xib in Resources */,
+				2C4E871D19CDA03E007E31BB /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C4E872319CDA03E007E31BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2C4E870C19CDA03E007E31BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C4E871819CDA03E007E31BB /* ViewController.swift in Sources */,
+				2C4E871619CDA03E007E31BB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C4E872119CDA03E007E31BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C4E872C19CDA03E007E31BB /* Brian_AdventTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2C4E872719CDA03E007E31BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2C4E870F19CDA03E007E31BB /* Brian Advent */;
+			targetProxy = 2C4E872619CDA03E007E31BB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2C4E871919CDA03E007E31BB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C4E871A19CDA03E007E31BB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2C4E871E19CDA03E007E31BB /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C4E871F19CDA03E007E31BB /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2C4E872D19CDA03E007E31BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2C4E872E19CDA03E007E31BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2C4E873019CDA03E007E31BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Brian Advent/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2C4E873119CDA03E007E31BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Brian Advent/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2C4E873319CDA03E007E31BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Brian AdventTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Brian Advent.app/Brian Advent";
+			};
+			name = Debug;
+		};
+		2C4E873419CDA03E007E31BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Brian AdventTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Brian Advent.app/Brian Advent";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2C4E870B19CDA03E007E31BB /* Build configuration list for PBXProject "Brian Advent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C4E872D19CDA03E007E31BB /* Debug */,
+				2C4E872E19CDA03E007E31BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C4E872F19CDA03E007E31BB /* Build configuration list for PBXNativeTarget "Brian Advent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C4E873019CDA03E007E31BB /* Debug */,
+				2C4E873119CDA03E007E31BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2C4E873219CDA03E007E31BB /* Build configuration list for PBXNativeTarget "Brian AdventTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C4E873319CDA03E007E31BB /* Debug */,
+				2C4E873419CDA03E007E31BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2C4E870819CDA03E007E31BB /* Project object */;
+}
